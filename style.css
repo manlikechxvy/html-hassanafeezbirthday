@@ -1,0 +1,23 @@
+
+
+.card {
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;   /* take full viewport height */
+  margin: 0;       /* remove default body margin */
+}
+
+.card {
+  width: 560px;    /* standard YouTube embed width */
+  height: 315px;   /* standard YouTube embed height */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* optional styling */
+  border-radius: 8px; /* optional rounded corners */
+  overflow: hidden; /* keeps iframe neatly inside */
+}
+
+}
+h1{
+  font-family: "",serif;
+}
